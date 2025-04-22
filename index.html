@@ -3,25 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./static/css/gambarino.css">
+    <link rel="stylesheet" href="./static/styles.css">
     <title>Odin Landing Page</title>
 </head>
 <body>
-    <header>
+    <header class="dark">
         <nav>
-            <strong class="header-logo">Header Logo</strong>
+            <a href="#"><strong class="header-logo">Never</strong></a>
             <ul class="right-links">
-                <li><a href="#">list item 1</a></li>
-                <li><a href="#">list item 2</a></li>
-                <li><a href="#">list item 3</a></li>
+                <li><a href="#">Gonna  </a></li>
+                <li><a href="#">Give</a></li>
+                <li><a href="#">You</a></li>
+                <li><a href="#">Up</a></li>
             </ul>
         </nav>
     </header>
+
     <main class="container">
-        THE MAIN STUFF GOES HERE
+        <div class="section section-one dark">
+            <div class="content">
+                <h1>This is an elegant website.</h1>
+                <p>You may have noticed that the boxes are... well, boxy instead of rounded. That was a design choice (I know how border-radius works).</p>
+                <button class="sign-up"><a class="btn" href="#">Sign Up</a></button>
+            </div>
+            <img class="image" src="./static/hero-image.jpg" alt="A picture should be here">
+        </div>
+
+        <div class="section section-two orange">
+            <p class="info-head">Some random information</p>
+            <div class="content">
+                <div class="info">
+                    <img class="image" src="./static/info-image-1.jpg" alt="A picture should be here">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="info">
+                    <img class="image" src="./static/info-image-2.jpg" alt="A picture should be here">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="info">
+                    <img class="image" src="./static/info-image-3.jpg" alt="A picture should be here">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="info">
+                    <img class="image" src="./static/info-image-4.jpg" alt="A picture should be here">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section section-three kinda-light">
+            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="author">-Thor, God of Thunder</p>
+        </div>
+
+        <div class="section section-four">
+            <div class="orange-box orange">
+                <div>
+                    <strong>Call to action! It's time!</strong>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="sign-up"><a class="btn" href="#">Sign Up</a></button>
+            </div>
+        </div>
     </main>
-    <footer>
-        Copyright @ THE Odin Project 2025
+
+    <footer class="bottom dark">
+        <p>Copyright @ zemrwantstolearncoding</p>
+        <p>Courtesy @ The Odin Project</p>
     </footer>
 </body>
 </html>
